@@ -1,9 +1,13 @@
 import re
 
-def regexStrip(text, chars=' '):
-	#subRegex = re.compile(r'^{}+|{}+$'.format(chars, chars))
-	text = subRegex.sub(r'^chars|chars$', '', text)0
-	return text
+def regexStrip(text, chars='\s'):
+	stripLeft = re.compile(r'^['+re.escape(chars)+r']+')
+	stripRight = re.compile(r'['+re.escape(chars)+r']+$')
+
+	t = re.sub(stripLeft, '', text)
+	tFinal = re.sub(stripRight, '', t)
+
+	return tFinal
 
 texts = [
 	'    holas   ',
@@ -14,11 +18,10 @@ texts = [
 
 for text in texts:
 	chars = ' -cmowz.'
-	if text.strip(chars) != regexStrip(text, chars):
-		print('Test failed.')
-		print('Original string: ', text)
-		print('Using strip method: ', text.strip(chars))
-		print('Using regex strip: ', regexStrip(text, chars))
-		print()
+
+	print('Original string: ', text)
+	print('Using strip method: ', text.strip(chars))
+	print('Using regex strip: ', regexStrip(text, chars))
+	print()
 
 print('All done!')
