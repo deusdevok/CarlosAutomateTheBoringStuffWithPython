@@ -10,7 +10,6 @@ folder = cwd / 'folderTreeTest' # Make folder absolute
 
 for foldername, subfolders, filenames in os.walk(folder):
 	for filename in filenames:
-		if filename.endswith('.jpg'):
+		if os.path.getsize(Path(foldername) / filename) > 20*1024: # 20 KB = 20*1024 B 
 			print()
-			print(Path(foldername) / filename, 'to', cwd / 'newFolder')
-			shutil.copy(Path(foldername) / filename, cwd / 'newFolder')
+			print(Path(foldername) / filename)
