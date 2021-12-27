@@ -17,7 +17,7 @@ If you have any suggestions or corrections, you can [file an issue](https://gith
 * [x] [Chapter 9 - Reading and Writing Files](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/tree/main/Chapter%209)
 * [x] [Chapter 10 - Organizing Files](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/tree/main/Chapter%2010)
 * [x] [Chapter 11 - Debugging](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/tree/main/Chapter%2011)
-* [ ] [Chapter 12 - Web Scraping](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/tree/main/Chapter%2012)
+* [x] [Chapter 12 - Web Scraping](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/tree/main/Chapter%2012)
 * [ ] [Chapter 13 - Working with Excel Spreadsheets](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/tree/main/Chapter%2013)
 * [ ] [Chapter 14 - Working with Google Sheets](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/tree/main/Chapter%2014)
 * [ ] [Chapter 15 - Working with PDF and Word Documents](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/tree/main/Chapter%2015)
