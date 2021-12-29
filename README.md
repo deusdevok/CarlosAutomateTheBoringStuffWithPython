@@ -4,6 +4,8 @@ This repository contains my solutions to the exercises and answers to the practi
 
 **[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) by [Al Sweigart](http://alsweigart.com/). 2nd Edition.**
 
+![automatepythonbook](/automatestuffpythonbook.jpeg)
+
 If you have any suggestions or corrections, you can [file an issue](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/issues).
 
 * [x] [Chapter 1 - Python Basics](https://github.com/carlosbionic/CarlosAutomateTheBoringStuffWithPython/tree/main/Chapter%201)
